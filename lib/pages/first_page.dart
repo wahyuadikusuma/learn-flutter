@@ -32,15 +32,20 @@ class FirstPage extends StatelessWidget {
               ),
             ),
 
+            Text(
+              'INFINITY CLUB',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 20,
+                fontFamily: 'LemonMilk',
+              ),
+            ),
+
             Padding(
-              padding: const EdgeInsets.only(bottom: 25.0),
-              child: Text(
-                'INFINITY CLUB',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
-                  fontFamily: 'LemonMilk',
-                ),
+              padding: const EdgeInsets.all(25),
+              child: Container(
+                height: 1.1,
+                color: Colors.white,
               ),
             ),
 
@@ -60,20 +65,10 @@ class FirstPage extends StatelessWidget {
               },
             ),
 
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20.0),
-              child: Container(
-                height: 1.1,
-                color: Colors.white,
-              ),
-            ),
-
             // setting page
-
-            // home page
             ListTile(
               leading: Icon(
-                Icons.person,
+                Icons.settings,
                 color: Colors.white,
               ),
               title: Text('S E T T I N G',
